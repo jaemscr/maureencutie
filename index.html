@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GABPOGI</title>
+    
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p>GabFlix</p>
+        </div>
+        <input type="search" placeholder="Search">
+        <ul class="nav-links">
+            <li><a href="#">Genre</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="Login/account.html"><button>Log in</button></a></li>
+        </ul>
+        <span class="toggleBox"><i class="fa-solid fa-bars" id="toggle-bar"></i></span>
+    </nav>
+    <header>
+        <div class="left-section">
+            <div class="text-section">
+                <p class="title">Gab<span>Flix</span></p>
+                <p class="description">
+                    made for <span>my</span> baby <span>(@ fzleri)</span>
+                only!!!
+                </p>
+                <a href="movies/movie.html"><button>Watch now</button></a>
+            </div>
+        </div>
+        <div class="right-section">
+            <p>HI, BABY</p>
+            <div class="showing">
+                <div class="showing-image"></div>
+            </div>
+        </div>
+    </header>
+    <section id="main">
+        <div class="about-section">
+            <p class="about" id="about">hi baby pls read</p>
+            <div class="about-container">
+                <div>
+                    <img src="images/coin.jpg">
+                </div>
+                <div>
+                    <h2>i ❤️ u with all my heart</h2>
+                    <p>
+                     it's u who i think of when i look at the sunset, flowers, moon,
+                     and everything that is beautiful.
+                     you're my first thought when i wake up and
+                     my last thought before i go to sleep.
+                    </p>
+                </div>
+            </div>
+            <div class="about-container">
+                <div>
+                    <img src="images/watching.jpg">
+                </div>
+                <div>
+                    <h2>Watch Everywhere</h2>
+                    <p>
+                        Watch together with your partner, friends and your family. <br>
+                        Watch on your on your Smart TV, Apple TV, or with your Smart Phones. <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="socials">
+            <h4>Socials</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="https://github.com/BulletOnli" target="_blank">Github</a>
+        </div>
+        <div class="other-links">
+            <h4>Other Links</h4>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+        </div>
+        <div class="contacts">
+            <h4>Contacts</h4>
+            <a href="mailto:bulletlangto@gmail.com">bulletlangto@gmail.com</a>
+            <a href="#">09123456789</a>
+            <a href="#">Telegram</a>
+        </div>
+        <div class="credits">
+            <small>Copyright © 2022 IceFlix. All Rights Reserved</small>
+            <a href="https://www.instagram.com/gem.muel/" target="_blank">Powered by Gemmuel Dela Pena</a>
+        </div>
+    </footer>
+
+    <script>
+        const toggleClick = document.querySelector(".toggleBox")
+        const navBar = document.querySelector(".nav-links")
+
+        toggleClick.addEventListener('click', function() {
+            toggleClick.classList.toggle('active')
+            navBar.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
