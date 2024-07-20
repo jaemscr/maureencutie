@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #4D4E6C;
+    background-color: #e3e01e;
 }
 
 /* ------------------Nav----------------- */
@@ -20,7 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: #2D3147;
+    background-color: #e8e154;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
     z-index: 1000;
 }
