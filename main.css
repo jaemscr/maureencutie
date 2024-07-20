@@ -19,7 +19,7 @@ header {
     height: 100vh;
     background-color: #f7879a;
     display: flex;
-    border-bottom: 1px solid #0f7879a;
+    border-bottom: 1px solid #f7879a;
 }
 
 .left-section,
@@ -45,14 +45,14 @@ header {
     font-size: 15px;
     color: #F3F3F3;
     font-weight: 700;
-    border: 2px solid #F3F3F3;
+    border: 2px solid #000000;
     background-color: transparent;
     padding: 0.5rem 2.5rem;
     cursor: pointer;
 }
 
 .text-section button:hover {
-    background-color: #0000;
+    background-color: #000000;
     transition: 0.2s ease-in-out
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .text-section span {
-    color: #0000;
+    color: #000000;
     font-weight: 800;
 }
 
