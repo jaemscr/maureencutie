@@ -52,7 +52,7 @@ header {
 }
 
 .text-section button:hover {
-    background-color: #0f1c32;
+    background-color: #f7879a;
     transition: 0.2s ease-in-out
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .text-section span {
-    color: #0f1c32;
+    color: #f7879a;
     font-weight: 800;
 }
 
@@ -198,7 +198,7 @@ section {
 
 .about-container:hover {
     transform: scale(1.1, 1.1);
-    background-color: #545579;
+    background-color: #f7879a;
     border: 1px solid black;
 }
 
