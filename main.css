@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: ##dea5a4;
+    background-color: #dea5a4;
 }
 /* ------------------Header----------------- */
 
@@ -19,7 +19,7 @@ header {
     height: 100vh;
     background-color: #f7879a;
     display: flex;
-    border-bottom: 1px solid #0f1c32;
+    border-bottom: 1px solid #0f7879a;
 }
 
 .left-section,
@@ -52,7 +52,7 @@ header {
 }
 
 .text-section button:hover {
-    background-color: #f7879a;
+    background-color: #0000;
     transition: 0.2s ease-in-out
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .text-section span {
-    color: #f7879a;
+    color: #0000;
     font-weight: 800;
 }
 
@@ -159,7 +159,7 @@ section {
 }
 
 .about-section .about {
-    color: #F3F3F3;
+    color: #000000;
     font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 5rem;
@@ -186,19 +186,19 @@ section {
 }
 
 .about-container h2 {
-    color: #F3F3F3;
+    color: #dea5a4;
     margin-bottom: 2rem;
 }
 
 .about-container p {
-    color: #F3F3F3;
+    color: #00000;
     font-size: 16px;
     font-weight: 600;
 }
 
 .about-container:hover {
     transform: scale(1.1, 1.1);
-    background-color: #f7879a;
+    background-color: #f7879A;
     border: 1px solid black;
 }
 
@@ -266,7 +266,7 @@ section {
     .description {
         font-size: .9rem;
         font-weight: 500;
-        color: #F3F3F3;
+        color: #000000;
         margin-bottom: 15px;
     }
     .about-section .about {
@@ -330,7 +330,7 @@ section {
     .description {
         font-size: .8rem;
         font-weight: 500;
-        color: #F3F3F3;
+        color: #000000;
         margin-bottom: 15px;
     }
     .about-section .about {
